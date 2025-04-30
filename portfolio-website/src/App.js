@@ -1,6 +1,6 @@
 import React from "react";
-import HeroSection from "./components/sections/HeroSection";
 import './styles/App.css';
+import HeroSection from "./components/Sections/HeroSection";
 import AboutSection from "./components/sections/AboutSection";
 import ProjectsSection from "./components/sections/ProjectsSection";
 
