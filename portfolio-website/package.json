@@ -40,6 +40,7 @@
     ]
   },
   "devDependencies": {
+    "case-sensitive-paths-webpack-plugin": "^2.4.0",
     "gh-pages": "^6.3.0"
   }
 }
