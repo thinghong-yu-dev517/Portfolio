@@ -1,16 +1,73 @@
+:root {
+  /* Colors - personality inspired */
+  /* --primary-color: #ff914d;
+  --primary-dark: #cc6e36;
+  --background-color: #1c1c1e;
+  --accent-color: #fdd365;
+  --text-light: #fefefe;
+  --text-soft: #d6d6d6; */
+  --primary-color: hsl(24, 100%, 65%);
+  --primary-dark: hsl(24, 59%, 51%);
+  --background-color: hsl(240, 4%, 11%);
+  --accent-color: hsl(44, 97%, 70%);
+  --text-light: hsl(0, 0%, 99.6%);
+  --text-soft: hsl(0, 0%, 83.9%);
+
+
+
+  /* Typography */
+  --font-brand: 'Calistoga', bold, 'serif';
+  --font-heading: 'Raleway', sans-serif;
+  --font-body: 'Inter', sans-serif;
+
+  --font-size-xxl: 6rem;
+  --font-size-xl: 3rem;
+  --font-size-lg: 2rem;
+  --font-size-md: 1.5rem;
+  --font-size-sm: 1rem;
+
+  --font-size-button: 1.2rem;
+
+  --spacing-xxl: 6.25rem; /* 100px */
+
+
+  --font-family-base: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans', 'Helvetica Neue', sans-serif;
+  --font-size-tagline: 4rem; 
+  --font-size-heading: 2rem;  
+  --font-size-subheading: 1.5rem; 
+
+  /* Spacing */
+  --spacing-xs: 0.5rem;
+  --spacing-sm: 1rem;
+  --spacing-md: 1.5rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+
+  /* Border Radius */
+  --border-radius: 8px;
+  --button-radius: 999px;
+  /* Shadow */
+  --box-shadow: 0 4px 10px rgba(0, 0, 0, 0.15);
+}
+
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
-html body{
-  height: 100%;
+html {
+  scroll-behavior: smooth;
 }
 
-.App {
-  text-align: center;
+html body{
+  height: 100%;
+  font-family: var(--font-family-base);
 }
+
+/* .App {
+  text-align: center;
+} */
 
 .App-logo {
   height: 40vmin;

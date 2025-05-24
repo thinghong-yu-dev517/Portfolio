@@ -1,53 +1,58 @@
 .projects {
-    padding: 4rem 2rem;
-    background-color: #f4f4f4;
+    padding: var(--spacing-xl) var(--spacing-lg);
+    background-color: var(--background-color);
+    color: var(--text-light);
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    scroll-snap-align: start;
 }
 
 .projects-header h2 {
     text-align: center;
-    font-size: 2.5rem;
-    margin-bottom: 1rem;
+    font-size: var(--font-size-heading);
+    margin-bottom: var(--spacing-sm);
+    color: var(--accent-color);
 }
 
 .projects-header p {
     text-align: center;
-    font-size: 1.2rem;
-    margin-bottom: 2rem;
+    font-size: var(--font-size-subheading);
+    margin-bottom: var(--spacing-xl);
+    color: var(--text-soft);
 }
 
-.projects-list {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
-    gap: 2rem;
-    padding: 1rem;
+.projects-placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
 }
 
-.project-item {
-    background-color:  #fff;
-    padding: 1.5rem;
-    border-radius: 8px;
-    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+.coming-soon-card {
+    background-color: #2c2c2e;
+    padding: var(--spacing-lg);
+    border-radius: var(--border-radius);
+    box-shadow: var(--box-shadow);
     text-align: center;
+    max-width: 400px;
 }
 
-.project-item img {
-    max-width: 100%;
-    height: auto;
-    border-radius: 8px;
-    margin-bottom: 1rem;
+.coming-soon-card .emoji {
+    font-size: 3rem;
+    display: block;
+    margin-bottom: var(--spacing-sm);
 }
 
-.project-item h3 {
+.coming-soon-card h3 {
+    font-size: 1.5rem;
+    color: var(--primary-color);
+    margin-bottom: var(--spacing-sm);
+}
+
+.coming-soon-card p {
     font-size: 1rem;
-    margin-bottom: 1rem;
-}
-
-.project-item a {
-    font-size: 1rem;
-    color: #007bff;
-    text-decoration: none;
-}
-
-.project-item a:hover {
-    text-decoration: underline;
+    color: var(--text-soft);
 }

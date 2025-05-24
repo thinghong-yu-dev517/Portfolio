@@ -3,7 +3,7 @@ import '../../styles/AboutSection.css'
 
 const AboutSection = () => {
     return(
-        <section className="about-page">
+        <section id="about" className="about-page">
             <div className="about-body">
                 <div className="about-left">
                     <img src="/87254D04-5998-4960-BF20-0EE679F4C04A_1_105_c.jpeg" alt="Yu Thing Hong" className="profile-pic" />

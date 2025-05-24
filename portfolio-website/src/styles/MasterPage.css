@@ -1,0 +1,28 @@
+.section {
+    height: 100vh;
+    text-align: left;
+    padding: var(--spacing-xxl);
+    justify-content: center;
+    background-color: var(--background-color);
+    color: var(--text-light);
+    display: flex;
+}
+
+.section::before {
+    content: "";
+    position: absolute;
+    width: 800px;
+    height: 800px;
+    background: radial-gradient(circle at 30% 30%, var(--accent-color), transparent 80%);
+    opacity: 0.2;
+    filter: blur(100px);
+    z-index: 0;
+    top: 15%;
+    left: 10%;
+    transform: translate(-50%, -50%);
+}
+
+.column {
+    display: flex;
+    flex-direction: column;
+}
