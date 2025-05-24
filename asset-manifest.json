@@ -1,15 +1,22 @@
 {
   "files": {
-    "main.css": "/Portfolio/static/css/main.32fc4f06.chunk.css",
-    "main.js": "/Portfolio/static/js/main.059fc5b4.chunk.js",
-    "main.js.map": "/Portfolio/static/js/main.059fc5b4.chunk.js.map",
+    "main.css": "/Portfolio/static/css/main.4f355d85.chunk.css",
+    "main.js": "/Portfolio/static/js/main.3a79bb81.chunk.js",
+    "main.js.map": "/Portfolio/static/js/main.3a79bb81.chunk.js.map",
     "runtime~main.js": "/Portfolio/static/js/runtime~main.132fbc8c.js",
     "runtime~main.js.map": "/Portfolio/static/js/runtime~main.132fbc8c.js.map",
-    "static/js/2.c7821bdd.chunk.js": "/Portfolio/static/js/2.c7821bdd.chunk.js",
-    "static/js/2.c7821bdd.chunk.js.map": "/Portfolio/static/js/2.c7821bdd.chunk.js.map",
+    "static/js/2.2f34593c.chunk.js": "/Portfolio/static/js/2.2f34593c.chunk.js",
+    "static/js/2.2f34593c.chunk.js.map": "/Portfolio/static/js/2.2f34593c.chunk.js.map",
     "index.html": "/Portfolio/index.html",
-    "precache-manifest.c520654fb79822a2f62e500ba7488a53.js": "/Portfolio/precache-manifest.c520654fb79822a2f62e500ba7488a53.js",
+    "precache-manifest.8a5f9b93eef612d0a0a094b5a017abb0.js": "/Portfolio/precache-manifest.8a5f9b93eef612d0a0a094b5a017abb0.js",
     "service-worker.js": "/Portfolio/service-worker.js",
-    "static/css/main.32fc4f06.chunk.css.map": "/Portfolio/static/css/main.32fc4f06.chunk.css.map"
+    "static/css/main.4f355d85.chunk.css.map": "/Portfolio/static/css/main.4f355d85.chunk.css.map",
+    "static/media/CollapseIconDesktopAccent.svg": "/Portfolio/static/media/CollapseIconDesktopAccent.88bda00a.svg",
+    "static/media/CollapseIconDesktopPrimary.svg": "/Portfolio/static/media/CollapseIconDesktopPrimary.21af98ff.svg",
+    "static/media/CollapseIconDesktopTextLight.svg": "/Portfolio/static/media/CollapseIconDesktopTextLight.da71ccbc.svg",
+    "static/media/ExpandIconDesktopBackground.svg": "/Portfolio/static/media/ExpandIconDesktopBackground.e13083fc.svg",
+    "static/media/ExpandIconDesktopPrimary.svg": "/Portfolio/static/media/ExpandIconDesktopPrimary.48bb09e8.svg",
+    "static/media/ExpandIconDesktopTextLight.svg": "/Portfolio/static/media/ExpandIconDesktopTextLight.c5cfd857.svg",
+    "static/media/HeroSection.css": "/Portfolio/static/media/TechLogoGroup.f9c41bee.svg"
   }
 }
